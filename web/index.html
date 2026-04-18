@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nano-Mirror AI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1> Nano-Mirror AI</h1>
+        <p>Draw a shape in the left grid, then run the AI to mirror it.</p>
+        
+        <div class="interface">
+            <div class="grid-container">
+                <h3>Input Grid</h3>
+                <div id="inputGrid" class="grid"></div>
+            </div>
+            
+            <button id="runBtn">Run AI </button>
+            
+            <div class="grid-container">
+                <h3>Output Grid</h3>
+                <div id="outputGrid" class="grid"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
